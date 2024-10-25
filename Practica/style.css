@@ -1,0 +1,42 @@
+
+
+film {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+film codigo, 
+film titulo, 
+film descripcion, 
+film anio, 
+film categorias, 
+film actor_nombre_completo {
+    display: block;
+    margin: 5px 0;
+}
+
+film titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+film actor_nombre_completo {
+    font-style: italic;
+    color: #333;
+}
+
+film categorias {
+    color: #555;
+}
+
+film anio {
+    font-weight: bold;
+    color: #007bff;
+}
